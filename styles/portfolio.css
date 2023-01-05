@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 90px;
+}
+.text-primary{
+    color:green;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+    width: 150px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 18px 35px;
+}
